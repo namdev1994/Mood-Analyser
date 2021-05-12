@@ -1,0 +1,2 @@
+com/moodanalyser/MoodAnalyserTest.java
+ com.moodanalyser.MoodAnalyserTest
