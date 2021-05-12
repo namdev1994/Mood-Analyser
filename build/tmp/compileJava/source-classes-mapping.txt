@@ -1,2 +1,4 @@
 com/moodanalyser/MoodAnalyser.java
  com.moodanalyser.MoodAnalyser
+com/moodanalyser/MoodAnalyserException.java
+ com.moodanalyser.MoodAnalyserException
