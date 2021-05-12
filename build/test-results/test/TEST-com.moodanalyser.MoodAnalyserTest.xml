@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-12T14:11:57" hostname="LAPTOP-LN4L4KQQ" time="0.104">
+<testsuite name="com.moodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-12T15:30:19" hostname="LAPTOP-LN4L4KQQ" time="0.074">
   <properties/>
-  <testcase name="given_Message_When_Null_Should_Return_Happy()" classname="com.moodanalyser.MoodAnalyserTest" time="0.033"/>
-  <testcase name="given_Message_When_Null_ReturnCustomException()" classname="com.moodanalyser.MoodAnalyserTest" time="0.064"/>
-  <testcase name="given_Message_When_Sad_Should_Return_Sad()" classname="com.moodanalyser.MoodAnalyserTest" time="0.004"/>
+  <testcase name="given_Message_When_Null_ReturnCustomException()" classname="com.moodanalyser.MoodAnalyserTest" time="0.074"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[com.moodanalyser.MoodAnalyserException: Enter Valid Mood
-	at com.moodanalyser.MoodAnalyser.moodAnalyzerException(MoodAnalyser.java:32)
-	at com.moodanalyser.MoodAnalyserTest.given_Message_When_Null_ReturnCustomException(MoodAnalyserTest.java:25)
+  <system-err><![CDATA[com.moodanalyser.MoodAnalyserException: Enter Proper mood
+	at com.moodanalyser.MoodAnalyser.moodAnalyser(MoodAnalyser.java:7)
+	at com.moodanalyser.MoodAnalyserTest.given_Message_When_Null_ReturnCustomException(MoodAnalyserTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
